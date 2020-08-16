@@ -1,0 +1,292 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Адаптивный шаблон сообщества и портфолио</title>
+    <link rel="stylesheet" href="assets/css/style-freedom.css">
+</head>
+
+<body>
+<!-- header -->
+<div class="ssh-headers-9">
+    <header>
+        <div class="wrapper">
+            <div class="header">
+                <div class="right-img-9">
+                    <a href="index.html" class="logo"><span class="fa fa-angellist"
+                            aria-hidden="true"></span>StockShablonov</a>
+                    <!-- если логотип будет изображением, разкоментируйте этот код   
+            <a class="logo" href="index.html">
+            <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+            </a> -->
+                </div>
+                <div class="bottom-menu-content">
+                    <input type="checkbox" id="nav" />
+                    <label for="nav" class="menu-bar"></label>
+                    <nav>
+                        <div class="wrapper">
+                            <ul class="menu">
+                                <li><a href="index.html" class="link-nav">Главный экран</a></li>
+                                
+                                <li class="nav-right-sty">
+                                    <div class="social">
+                                        <a href="#facebook"><span class="fa fa-facebook"
+                                                aria-hidden="true"></span></a>
+                                        <a href="#linkedin"><span class="fa fa-linkedin"
+                                                aria-hidden="true"></span></a>
+                                        <a href="#twitter"><span class="fa fa-twitter"
+                                                aria-hidden="true"></span></a>
+                                        <a href="#google"><span class="fa fa-google-plus"
+                                                aria-hidden="true"></span></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- //header -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script>
+        $('#nav').change(function () {
+            if ($('#nav').is(":checked")) {
+                $('body').css('overflow', 'hidden');
+            } else {
+                $('body').css('overflow', 'auto');
+            }
+        });
+    </script>
+</div>
+<!-- inner banner -->
+<section class="ssh-inner-banner-main">
+<div class="about-inner inner2">
+    <div class="wrapper seen-w3">
+        <ul class="breadcrumbs-custom-path">
+            <li><a href="index.html">Главная</a></li>
+            <li><span class="fa fa-angle-right" aria-hidden="true"></span></li>
+            <li class="active">Корзина покупателя</li>
+        </ul>
+    </div>
+</div>
+</section>
+<!-- ecommerce cart -->
+<section class="ssh-ecom-cart">
+    <div class="covers-main">
+        <div class="wrapper">
+            <h1>Корзина покупателя</h1>
+            <div class="d-grid main-top-grid">
+                <div class="left-shoping-cart">
+                    <div class="shopping-cart">
+                        <div class="column-labels">
+                            <label class="product-image">Items</label>
+                            <label class="product-details">Product Details</label>
+                            <label class="product-price">Price</label>
+                            <label class="product-quantity">Quantity</label>
+                            <label class="product-line-price">Total</label>
+                        </div>
+                        <div class="product">
+                            <div class="product-image">
+                                <a href="ecommerce-single.html"><img src="assets/images/ecom1.jpg" alt=""
+                                        class="img-responsive"></a>
+                            </div>
+                            <div class="product-details">
+                                <div class="product-title"><a href="ecommerce-single.html">Aliquam lobortis</a>
+                                </div>
+                                <p class="product-description"><b>Color:</b> Dark Blue</p>
+                            </div>
+                            <div class="product-price">1200 </div>
+                            <div class="product-quantity">
+                                <input type="number" value="1" min="1">
+                            </div>
+                            <div class="product-line-price">1200</div>
+                        </div>
+                        <div class="product">
+                            <div class="product-image">
+                                <a href="ecommerce-single.html"><img src="assets/images/ecom3.jpg" alt=""
+                                        class="img-responsive"></a>
+                            </div>
+                            <div class="product-details">
+                                <div class="product-title"><a href="ecommerce-single.html">Suspendisse dictum</a>
+                                </div>
+                                <p class="product-description"><b>Color:</b> Light Pink</p>
+                            </div>
+                            <div class="product-price">499</div>
+                            <div class="product-quantity">
+                                <input type="number" value="1" min="1">
+                            </div>
+                            <div class="product-line-price">499</div>
+                        </div>
+                        <div class="product">
+                            <div class="product-image">
+                                <a href="ecommerce-single.html"><img src="assets/images/ecom2.jpg" alt=""
+                                        class="img-responsive"></a>
+                            </div>
+                            <div class="product-details">
+                                <div class="product-title"><a href="ecommerce-single.html">Curabitur vulputate</a>
+                                </div>
+                                <p class="product-description"><b>Color:</b> Brown</p>
+                            </div>
+                            <div class="product-price">299</div>
+                            <div class="product-quantity">
+                                <input type="number" value="1" min="1">
+                            </div>
+                            <div class="product-line-price">299</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-content-cart">
+                    <div class="top-content">
+                        <div class="totals">
+                            <ul>
+                                <li><a href="#some"><span class="fa fa-usd" aria-hidden="true"></span>Apply
+                                        Coupon</a>
+                                </li>
+                                <li><a href="#some"><span class="fa fa-thumbs-up" aria-hidden="true"></span>Save
+                                        ₹15.0
+                                        on this order</a></li>
+                            </ul>
+                            <div class="totals-item">
+                                <label>Subtotal</label>
+                                <div class="totals-value" id="cart-subtotal">1998</div>
+                            </div>
+                            <div class="totals-item">
+                                <label>Tax (5%)</label>
+                                <div class="totals-value" id="cart-tax">3.60</div>
+                            </div>
+                            <div class="totals-item">
+                                <label>Shipping</label>
+                                <div class="totals-value" id="cart-shipping">15.00</div>
+                            </div>
+                            <div class="totals-item totals-item-total">
+                                <label>To Pay</label>
+                                <div class="totals-value" id="cart-total">2016.0</div>
+                            </div>
+                            <a href="login.html" class="btn button-eff checkout">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //ecommerce cart -->
+<!-- footer 14 -->
+<div class="ssh-footer-main">
+<div class="ssh-sub-footer-content">
+    <section class="_form-3">
+        <div class="form-main">
+            <div class="wrapper">
+                <div class="middle-section grid-column top-bottom">
+                    <div class="image grid-three-column">
+                        <img src="assets/images/subscribe.jpg" alt="" class="img-fluid img-responsive">
+                    </div>
+                    <div class="text-grid grid-three-column">
+                        <h2>Подпишитесь, чтобы раз в месяц получать наши лучшие публикации</h2>
+                        <p>Sed lorem ipsum</p>
+                    </div>
+                    <div class="form-text grid-three-column">
+                        <form action="/" method="GET">
+                            <input type="email" name=" placeholder" placeholder="Введите свой Email" required="">
+                            <button type="submit" class="submit-butn btn button-eff">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footers-14 -->
+    <footer class="footer-14">
+        <div id="footers14-block">
+            <div class="wrapper">
+                <div class="footers20-content">
+                    <div class="d-grid grid-col-4 grids-content">
+                        <div class="column">
+                            <h4>Наш адресс</h4>
+                            <p>Киев Украина, 10001</p>
+                        </div>
+                        <div class="column">
+                            <h4>Позвоните нам</h4>
+                            <p><a href="tel:+44-000-888-999">+012-123-45-67</a></p>
+                        </div>
+                        <div class="column">
+                            <h4>Напишите нам</h4>
+                            <p><a href="mailto:info@example.com">info@example.com</a></p>
+                        </div>
+                        <div class="column">
+                            <h4>Смотрите на</h4>
+                            <ul>
+                                <li><a href="#facebook"><span class="fa fa-facebook"
+                                            aria-hidden="true"></span></a>
+                                </li>
+                                <li><a href="#linkedin"><span class="fa fa-linkedin"
+                                            aria-hidden="true"></span></a>
+                                </li>
+                                <li><a href="#twitter"><span class="fa fa-twitter"
+                                            aria-hidden="true"></span></a>
+                                </li>
+                                <li><a href="#google"><span class="fa fa-google-plus"
+                                            aria-hidden="true"></span></a>
+                                </li>
+                                <li><a href="#github"><span class="fa fa-github" aria-hidden="true"></span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footers14-bottom d-flex">
+                    <div class="copyright">
+                        <p>© 2020 Готовый Шаблон для сайта Создать сайт можно <a href="http://stockshablonov.com/sozdanie-sajtov/"
+                                target="_blank">здесь</a></p>
+                    </div>
+                    <div class="language-select d-flex">
+                        <span class="fa fa-language" aria-hidden="true"></span>
+                        <select>
+                            <option>English</option>
+                            <option>Estonina</option>
+                            <option>Deutsch</option>
+                            <option>Nederlan;ds</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- move top -->
+        <button onclick="topFunction()" id="movetop" title="Вверх">
+            &uarr;
+        </button>
+        <script>
+            //Когда пользователь прокручивает вниз на 20 пикселей от верха документа, покажится кнопка
+            window.onscroll = function () {
+                scrollFunction()
+            };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    document.getElementById("movetop").style.display = "block";
+                } else {
+                    document.getElementById("movetop").style.display = "none";
+                }
+            }
+
+            // Когда пользователь нажимает кнопку, прокрутит документ до верхней части.
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+        <!-- /move top -->
+    </footer>
+    <!-- Footers-14 -->
+</div>
+</div>
+<!-- //footer 14 -->
+<script src="https://use.fontawesome.com/df966d76e1.js"></script>
+</body>
+
+</html>

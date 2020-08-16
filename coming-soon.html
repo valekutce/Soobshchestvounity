@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Отдельная страница Скорых событий</title>
+    <link rel="stylesheet" href="assets/css/style-freedom.css">
+</head>
+
+<body>
+    <!-- banner -->
+    <section class="ssh-coming-main">
+        <!-- coming soon page -->
+        <div class="coming-sub">
+            <div class="wrapper">
+                <h1>
+                    <a href="index.html" class="logo-2 logo-3"><span class="fa fa-angellist"
+                            aria-hidden="true"></span>Unity</a>
+                    <!-- if logo is image enable this   
+                    <a class="logo" href="index.html">
+                        <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+                    </a> -->
+                </h1>
+                <div class="d-grid main-content-coming">
+                    <div class="left-content">
+                        <ul class="counter-inner">
+                            <h3 class="big-day-count"><span id="days"></span><sup>days</sup></h3>
+                            <p class="days-count"><span id="hours"></span><label>h</label>
+                                <label><span id="minutes"></span>mn</label>
+                                <label><span id="seconds"></span>s</label>
+                            </p>
+                        </ul>
+                        <div class="caption mt-sm-5 mt-4">
+                            <ul>
+                                <li>
+                                    <a href="#facebook" class="iconf1 text-center">
+                                        <span class="fa fa-facebook"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#twitter" class="iconf2 text-center">
+                                        <span class="fa fa-twitter"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#google" class="iconf3 text-center">
+                                        <span class="fa fa-google-plus"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="page-sec">
+                        <h4 class="error-title-w3 font-weight-light">Coming Soon</span></h4>
+                        <p class="para-wid-error mt-3">Our website will be live very soon!</p>
+                        <div class="subscribe-w3ls mt-5">
+                            <p class="para-com-w3 mb-2">Notify me when it's ready</p>
+                            <form action="#" method="post" class="d-grid">
+                                <div class="form-group1">
+                                    <input type="email" class="form-control" name="email"
+                                        placeholder="Enter Your Email Address" required>
+                                </div>
+                                <button type="submit" class="btn button-eff">Send It</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- //coming soon page -->
+        <!-- script -->
+        <script>
+            const second = 1000,
+                minute = second * 60,
+                hour = minute * 60,
+                day = hour * 24;
+
+            let countDown = new Date('Nov 27, 2020 00:00:00').getTime(),
+                x = setInterval(function () {
+
+                    let now = new Date().getTime(),
+                        distance = countDown - now;
+
+                    document.getElementById('days').innerText = Math.floor(distance / (day)),
+                        document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
+                        document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
+                        document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
+
+                    //do something later when date is reached
+                    //if (distance < 0) {
+                    //  clearInterval(x);
+                    //  'IT'S MY BIRTHDAY!;
+                    //}
+
+                }, second)
+        </script>
+        <!-- //script -->
+    </section>
+    <!-- //banner -->
+    <script src="https://use.fontawesome.com/df966d76e1.js"></script>
+</body>
+
+</html>

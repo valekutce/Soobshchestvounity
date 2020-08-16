@@ -1,0 +1,1262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Адаптивный шаблон сообщества и портфолио</title>
+    <link rel="stylesheet" href="assets/css/style-freedom.css">
+</head>
+
+<body>
+
+<!-- header -->
+<div class="ssh-headers-9">
+    <header>
+        <div class="wrapper">
+            <div class="header">
+                <div class="right-img-9">
+                    <a href="index.html" class="logo"><span class="fa fa-angellist"
+                            aria-hidden="true"></span>StockShablonov</a>
+                    <!-- если логотип будет изображением, разкоментируйте этот код   
+            <a class="logo" href="index.html">
+            <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+            </a> -->
+                </div>
+                <div class="bottom-menu-content">
+                    <input type="checkbox" id="nav" />
+                    <label for="nav" class="menu-bar"></label>
+                    <nav>
+                        <div class="wrapper">
+                            <ul class="menu">
+                                <li><a href="index.html" class="link-nav">Главный экран</a></li>
+                                <li><a href="#about">О нас</a></li>
+                                <li><a href="#services">Услуги</a></li>           
+                                <li>
+                                    <label for="drop-2" class="toggle toogle-2">Разделы <span class="fa fa-angle-down"
+                                            aria-hidden="true"></span></label>
+                                    <a href="#pages" class="link-nav dropdown-toggle">Разделы <span
+                                            class="fa fa-angle-down" aria-hidden="true"></span></a>
+                                    <input type="checkbox" id="drop-2" />
+                                    <ul class="first-dropdwon">
+                                        <li><a href="#portfolio">Портфолио</a></li>
+                                        <li><a href="#pricing">Тарифы</a></li>
+                                        <li><a href="team.html">Команда</a></li>
+                                        <li><a href="team-single.html">Участник команды</a></li>
+                                        <li><a href="coming-soon.html">Coming Soon</a></li>
+                                        <li><a href="404.html">404</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <label for="drop-3" class="toggle toogle-2">Блог <span class="fa fa-angle-down"
+                                            aria-hidden="true"></span></label>
+                                    <a href="#blog" class="link-nav dropdown-toggle">Блог <span
+                                            class="fa fa-angle-down" aria-hidden="true"></span></a>
+                                    <input type="checkbox" id="drop-3" />
+                                    <ul>
+                                        <li><a href="blog-single.html">Blog Single</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <label for="drop-4" class="toggle toogle-2">Shop <span class="fa fa-angle-down"
+                                            aria-hidden="true"></span></label>
+                                    <a href="#blog" class="link-nav dropdown-toggle">Shop <span
+                                            class="fa fa-angle-down" aria-hidden="true"></span></a>
+                                    <input type="checkbox" id="drop-4" />
+                                    <ul>
+                                        <li><a href="ecommerce.html">Ecommerce</a></li>
+                                        <li><a href="ecommerce-single.html">Ecommerce Single</a></li>
+                                        <li><a href="ecommerce-cart.html">Ecommerce Cart</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#contact" class="link-nav">Contact</a></li>
+                                <li class="nav-right-sty">
+                                    <div class="social">
+                                        <a href="#facebook"><span class="fa fa-facebook"
+                                                aria-hidden="true"></span></a>
+                                        <a href="#linkedin"><span class="fa fa-linkedin"
+                                                aria-hidden="true"></span></a>
+                                        <a href="#twitter"><span class="fa fa-twitter"
+                                                aria-hidden="true"></span></a>
+                                        <a href="#google"><span class="fa fa-google-plus"
+                                                aria-hidden="true"></span></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- //header -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script>
+        $('#nav').change(function () {
+            if ($('#nav').is(":checked")) {
+                $('body').css('overflow', 'hidden');
+            } else {
+                $('body').css('overflow', 'auto');
+            }
+        });
+    </script>
+</div>
+<!-- hero-header 11 -->
+<section class="ssh-hero-headers-11">
+    <div class="hero-header-11">
+        <div class="hero-header-11-content">
+            <!-- banner -->
+            <div id="homepage-slider" class="st-slider">
+                <input type="radio" class="cs_anchor radio" name="slider" id="play1" checked="" />
+                <input type="radio" class="cs_anchor radio" name="slider" id="slide1" />
+                <input type="radio" class="cs_anchor radio" name="slider" id="slide2" />
+                <input type="radio" class="cs_anchor radio" name="slider" id="slide3" />
+                <div class="images">
+                    <div class="images-inner">
+                        <div class="image-slide">
+                            <div class="banner-w3ls-1">
+                                <div class="wrapper">
+                                    <div class="slider-text-w3ls">
+                                        <span>Общественный центр</span>
+                                        <h4>Нет силы для перемен больше, чем <b>сообщество</b></h4>
+                                        <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Которой инициал несколько.</p>
+                                        <a href="#about" class="btn button-eff button-eff-2"> Читать больше </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-slide">
+                            <div class="banner-w3ls-2">
+                                <div class="wrapper">
+                                    <div class="slider-text-w3ls">
+                                        <span>Общественный центр</span>
+                                        <h4>Тем времинем станьте тем, кем хотите<br> себя <b>видеть</b></h4>
+                                        <p>Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты.</p>
+                                        <a href="#about" class="btn button-eff button-eff-2"> Читать больше </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-slide">
+                            <div class="banner-w3ls-3">
+                                <div class="wrapper">
+                                    <div class="slider-text-w3ls">
+                                        <span>Общественный центр</span>
+                                        <h4>Нет силы для перемен больше, чем <b>сообщество</b></h4>
+                                        <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Рыбными обеспечивает ведущими курсивных семь?</p>
+                                        <a href="#about" class=" btn button-eff button-eff-2"> Читать больше </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="labels">
+                    <div class="fake-radio">
+                        <label for="slide1" class="radio-btn"></label>
+                        <label for="slide2" class="radio-btn"></label>
+                        <label for="slide3" class="radio-btn"></label>
+                    </div>
+                </div>
+            </div>
+            <!-- //banner -->
+        </div>
+    </div>
+</section>
+<!--// header -->
+<!-- О нас -->
+<section id="about" class="ssh-text-new-main">
+<div class="text-sub-ab">
+    <div class="wrapper">
+        <div class="sub-content">
+            <h6 class="para-about">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Встретил безорфографичный моей парадигматическая продолжил наш инициал оксмокс себя он! Что вскоре обеспечивает повстречался семантика! Маленькая она вопроса которое запятой.
+            </h6>
+            <div class="button-cover-9">
+                <a href="#contact" class="btn button-eff button-eff-2">Наймите нас</a>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!-- text-6 -->
+<section class="ssh-text-6">
+    <div class="text-6-mian">
+        <div class="wrapper">
+            <div class="d-grid top-cont-grid">
+                <div class="left-img">
+                    <img src="assets/images/about.jpg" alt="" class="img-responsive img-fluid" />
+                </div>
+                <div class="text-6-info">
+                    <h6>Мы заботимся про всех и обо всем</h6>
+                    <h2>Добро пожаловать в наше <span>Сообщество</span></h2>
+                    <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Переписали что сбить прямо обеспечивает предупреждал на берегу букв пустился проектах.</p>
+                    <a href="#" class="btn button-eff"> Читать больше </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="ssh-specifications-9" id="stats">
+    <div class="main-w3">
+        <div class="overlay">
+            <div class="wrapper">
+                <div class="counting-top">
+                    <h4 class="text-mu">Посмотри Почему мы уникальны?</h4>
+                    <p class="sub-counting">Далеко-далеко за словесными горами, в стране гласных и согласных живут рыбные тексты. Заглавных, они языком пор пунктуация, рот если то, грустный решила на берегу эта жаренные запятой от всех себя.<br> Она толку рыбными свой взобравшись своих решила всемогущая однажды страна? Которой, заманивший это. Пор.
+                    </p>
+                </div>
+                <div class="d-flex main-cont-wthree-fea">
+                    <div class="grids-speci">
+                        <div class="stats-icon">
+                            <span class="fa fa-smile-o" aria-hidden="true"></span>
+                        </div>
+                        <div>
+                            <h3 class="title-spe">5,100</h3>
+                            <p>Счастливые люди</p>
+                        </div>
+                    </div>
+                    <div class="grids-speci">
+                        <div class="stats-icon">
+                            <span class="fa fa-users" aria-hidden="true"></span>
+                        </div>
+                        <div>
+                            <h3 class="title-spe">971</h3>
+                            <p>Зарегистрированные пользователи</p>
+                        </div>
+                    </div>
+                    <div class="grids-speci">
+                        <div class="stats-icon">
+                            <span class="fa fa-building-o" aria-hidden="true"></span>
+                        </div>
+                        <div>
+                            <h3 class="title-spe">21</h3>
+                            <p>Наши представители</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="display-ad" style="margin: 8px auto; display: block; text-align:center;">
+    <!---728x90--->
+
+</div>
+<!-- contentwithphoto-11 -->
+<section class="ssh-content-with-photo-11">
+    <div class="content-photo-11">
+        <div class="wrapper">
+            <div class="contentwithphoto-11-content">
+                <div class="column contentwithphoto-img">
+                    <img src="assets/images/about2.jpg" alt="" class="img-fluid img-responsive" />
+                </div>
+                <div class="column contentwithphoto-text">
+                    <h3 class="title-main-2">Почему выбирают нас?</h3>
+                    <div class="contentwithphoto-text-info">
+                        <div class="column">
+                            <h4><a href="single.html">Название вашего заголовка</a></h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat aperiam vitae ex.
+                            </p>
+                        </div>
+                        <div class="column">
+                            <h4><a href="single.html">Название вашего заголовка</a></h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat aperiam vitae ex.
+                            </p>
+                        </div>
+                        <div class="column">
+                            <h4><a href="single.html">Название вашего заголовка</a></h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat aperiam vitae ex.
+                            </p>
+                        </div>
+                        <div class="column">
+                            <h4><a href="single.html">Название вашего заголовка</a></h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat aperiam vitae ex.
+                            </p>
+                        </div>
+                        <div class="column">
+                            <h4><a href="single.html">Название вашего заголовка</a></h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat aperiam vitae ex.
+                            </p>
+                        </div>
+                        <div class="column">
+                            <h4><a href="single.html">Название вашего заголовка</a></h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat aperiam vitae ex.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //contentwithphoto-11 -->
+<div class="ssh-cutomer-main-cont" id="customer">
+    <!-- testimonials -->
+    <div class="testimonials text-center sec-padding">
+        <div class="wrapper">
+            <h3 class="title-main">Что говорят наши Клиенты о нас</h3>
+            <div class="d-grid content-sec">
+                <div class="testi-sections">
+                    <div class="testimonials_grid">
+                        <p class="sub-test"><span class="fa fa-quote-left mr-2" aria-hidden="true"></span> Nam
+                            libero
+                            tempore, cum soluta
+                            nobis est eligendi optio cumque nihil impedit.
+                        </p>
+                        <div class="d-grid sub-author-con">
+                            <div class="testi-img-res">
+                                <img src="assets/images/testi1.jpg" alt="" class="img-responsive" />
+                            </div>
+                            <div class="testi_grid text-left">
+                                <h5 class="mb-1">Petey Cruis</h5>
+                                <p>Caption Here</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi-sections">
+                    <div class="testimonials_grid">
+                        <p class="sub-test"><span class="fa fa-quote-left mr-2" aria-hidden="true"></span> Nam
+                            libero
+                            tempore, cum soluta
+                            nobis est eligendi optio cumque nihil impedit.
+                        </p>
+                        <div class="d-grid sub-author-con">
+                            <div class="testi-img-res">
+                                <img src="assets/images/testi2.jpg" alt="" class="img-responsive" />
+                            </div>
+                            <div class="testi_grid text-left">
+                                <h5 class="mb-1">Molive Joe</h5>
+                                <p>Caption Here</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi-sections">
+                    <div class="testimonials_grid">
+                        <p class="sub-test"><span class="fa fa-quote-left mr-2" aria-hidden="true"></span> Nam
+                            libero
+                            tempore, cum soluta
+                            nobis est eligendi optio cumque nihil impedit.
+                        </p>
+                        <div class="d-grid sub-author-con">
+                            <div class="testi-img-res">
+                                <img src="assets/images/testi.jpg" alt="" class="img-responsive" />
+                            </div>
+                            <div class="testi_grid text-left">
+                                <h5 class="mb-1">Paige Turner</h5>
+                                <p>Caption Here</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //testimonials -->
+</div>
+<div class="display-ad" style="margin: 8px auto; display: block; text-align:center;">
+    <!---728x90--->
+
+</div>
+<!-- //О нас -->
+<!-- Наши услуги -->
+<section class="ssh-services-1" id="services">
+    <div class="services1 sec-padding">
+        <div class="wrapper">
+            <h3 class="title-main">Наши услуги</h3>
+            <div class="services1-content">
+                <div class="column">
+                    <a href="single.html">
+                        <img src="assets/images/service1.jpg" alt="" class="img-fluid img-responsive" />
+                        <div class="service-info">
+                            <h4 class="course">Консультация</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, mollitia!</p>
+                            <a href="single.html" class="feature-link">Узнать больше <span
+                                    class="arrow">&raquo;</span></a>
+                        </div>
+                    </a>
+                </div>
+                <div class="column">
+                    <a href="single.html">
+                        <img src="assets/images/service2.jpg" alt="" class="img-fluid img-responsive" />
+                        <div class="service-info">
+                            <h4 class="course">24/7 Наша поддержка</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, mollitia!</p>
+                            <a href="single.html" class="feature-link">Узнать больше <span
+                                    class="arrow">&raquo;</span></a>
+                        </div>
+                    </a>
+                </div>
+                <div class="column">
+                    <a href="single.html">
+                        <img src="assets/images/service3.jpg" alt="" class="img-fluid img-responsive" />
+                        <div class="service-info">
+                            <h4 class="course">Молодежная служба</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, mollitia!</p>
+                            <a href="single.html" class="feature-link">Узнать больше <span
+                                    class="arrow">&raquo;</span></a>
+                        </div>
+                    </a>
+                </div>
+                <div class="column">
+                    <a href="single.html">
+                        <img src="assets/images/service4.jpg" alt="" class="img-fluid img-responsive" />
+                        <div class="service-info">
+                            <h4 class="course">Семейное обслуживание</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, mollitia!</p>
+                            <a href="single.html" class="feature-link">Узнать больше <span
+                                    class="arrow">&raquo;</span></a>
+                        </div>
+                    </a>
+                </div>
+                <div class="column">
+                    <a href="single.html">
+                        <img src="assets/images/service5.jpg" alt="" class="img-fluid img-responsive" />
+                        <div class="service-info">
+                            <h4 class="course">Юридическая помощь</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, mollitia!</p>
+                            <a href="single.html" class="feature-link">Узнать больше <span
+                                    class="arrow">&raquo;</span></a>
+                        </div>
+                    </a>
+                </div>
+                <div class="column">
+                    <a href="single.html">
+                        <img src="assets/images/service6.jpg" alt="" class="img-fluid img-responsive" />
+                        <div class="service-info">
+                            <h4 class="course">Помощь пожилым гражданам</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, mollitia!</p>
+                            <a href="single.html" class="feature-link">Узнать больше <span
+                                    class="arrow">&raquo;</span></a>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="ssh-counter-top-6">
+<section id="counter-6-inf-block" class="counter-main">
+    <div class="wrapper-full-gd">
+        <div class="d-grid align-counter-6-inf-cols">
+            <div class="counter-6-inf-right">
+                <div class="d-grid grid-col-2">
+                    <div class="specification">
+                        <div class="icon-bg">
+                            <span class="fa fa-coffee"></span>
+                        </div>
+                        <h6>Lorem ipsum dolor</h6>
+                        <p>Lorem ante ipsum primis in faucibus orci luctus eted ultrices posuere.</p>
+                    </div>
+                    <div class="specification">
+                        <div class="icon-bg">
+                            <span class="fa fa-users"></span>
+                        </div>
+                        <h6>Conse ctetur adis</h6>
+                        <p>Lorem ante ipsum primis in faucibus orci luctus eted ultrices posuere.</p>
+                    </div>
+                    <div class="specification spec-gap">
+                        <div class="icon-bg">
+                            <span class="fa fa-magic"></span>
+                        </div>
+                        <h6>Susp endise volu</h6>
+                        <p>Lorem ante ipsum primis in faucibus orci luctus eted ultrices posuere.</p>
+                    </div>
+                    <div class="specification spec-gap">
+                        <div class="icon-bg">
+                            <span class="fa fa-thumbs-o-up"></span>
+                        </div>
+                        <h6>Massa ac met</h6>
+                        <p>Lorem ante ipsum primis in faucibus orci luctus eted ultrices posuere.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="counter-6-inf-left second">
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+<section class="ssh-feature-9">
+    <div class="main-w3">
+        <div class="wrapper">
+            <div class="d-grid main-cont-wthree-fea">
+                <div class="grids-feature">
+                    <div class="icon-bg">
+                        <span class="fa fa-thumbs-o-up" aria-hidden="true"></span>
+                    </div>
+                    <h4><a href="services.html" class="title-head">Сервис с опытом</a></h4>
+                    <p>In such lorem ipsum dolor sit res amet, consectetur adipiscing elit tres, sed do eiud tempor
+                        res.</p>
+                </div>
+                <div class="grids-feature">
+                    <div class="icon-bg">
+                        <span class="fa fa-bullhorn" aria-hidden="true"></span>
+                    </div>
+                    <h4><a href="services.html" class="title-head">Помощь молодых</a></h4>
+                    <p>Ncididunt ut labore et dolore magna minim veniam, quis nostrud exerc itat iono magna minim.
+                    </p>
+                </div>
+                <div class="grids-feature">
+                    <div class="icon-bg">
+                        <span class="fa fa-users" aria-hidden="true"></span>
+                    </div>
+                    <h4><a href="services.html" class="title-head">Семейное обслуживание</a></h4>
+                    <p>Duis aute irure dolor in voluptate velit esse cillum dolore eu fugiat nulla pariatur fugia
+                        tewsw
+                        et.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--// Наши услуги -->
+
+<!-- Наша команда -->
+<section class="ssh-new-team-main" id="team">
+    <div class="sub-team sec-padding">
+        <div class="wrapper">
+            <h3 class="title-main">Члены нашей команды</h3>
+            <div class="d-grid main-sec">
+                <div class="single-team">
+                    <a href="team-single.html">
+                        <img src="assets/images/team1.jpg" class="img-fluid img-responsive" alt="">
+                        <div class="team-hover">
+                            <h4>Tara Mis</h4>
+                            <a href="#facebook"><span class="fa fa-facebook"></span></a>
+                            <a href="#twitter"><span class="fa fa-twitter"></span></a>
+                            <a href="#linkedin"><span class="fa fa-linkedin"></span></a>
+                        </div>
+                    </a>
+                </div>
+                <div class="single-team">
+                    <a href="team-single.html">
+                        <img src="assets/images/team2.jpg" class="img-fluid img-responsive" alt="">
+                        <div class="team-hover">
+                            <h4>john doe</h4>
+                            <a href="#facebook"><span class="fa fa-facebook"></span></a>
+                            <a href="#twitter"><span class="fa fa-twitter"></span></a>
+                            <a href="#linkedin"><span class="fa fa-linkedin"></span></a>
+                        </div>
+                    </a>
+                </div>
+                <div class="single-team">
+                    <a href="team-single.html">
+                        <img src="assets/images/team3.jpg" class="img-fluid img-responsive" alt="">
+                        <div class="team-hover">
+                            <h4>Matt Inn</h4>
+                            <a href="#facebook"><span class="fa fa-facebook"></span></a>
+                            <a href="#twitter"><span class="fa fa-twitter"></span></a>
+                            <a href="#linkedin"><span class="fa fa-linkedin"></span></a>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="bottom-content-team">
+                <p class="para-index">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Всемогущая предупредила ты рукопись которой пустился повстречался семантика что ручеек толку маленький подзаголовок текстами, курсивных дорогу, не скатился имеет. Всеми речью бросил назад грустный страна коварный оксмокс продолжил вопроса текстами.</p>
+                <a href="team.html" class="btn button-eff button-eff-2">Узнать больше</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //Наша команда -->
+<!-- form-12 -->
+<section class="ssh-form-12-main" id="help">
+    <div class="form-12-content">
+        <div class="wrapper">
+            <div class="grid-column-2">
+                <div class="column1">
+                    <h5 class="form-para">Тебе нужна помощь?</h5>
+                    <p class="tagline">Свяжитесь с нами, и мы поможем решить любую вашу проблему.</p>
+                    <form action="/" method="Get">
+                        <div class="">
+                            <input type="text" name="name" class="form-input" placeholder="Ваше имя" required />
+                        </div>
+                        <div class="">
+                            <input type="email" name="email" class="form-input" placeholder="Email Address"
+                                required />
+                        </div>
+                        <div class="">
+                            <textarea name="message" class="form-input" placeholder="Ваше сообщение.."
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn button-eff">Отправить сейчас</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //form-12 -->
+<!-- portfolio -->
+<section class="ssh-gallery-main" id="portfolio">
+<div class="gallery sec-padding">
+    <div class="wrapper">
+        <h3 class="title-main">Наше портфолио</h3>
+        <div class="d-grid portfolio-page">
+            <div class="gallery-grids">
+                <div class="sshs-hover">
+                    <a href="single.html">
+                        <img src="assets/images/service4.jpg" class="img-responsive zoom-img" alt="" />
+                        <div class="view-caption">
+                            <h5>Портфолио</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="gallery-grids">
+                <div class="sshs-hover">
+                    <a href="single.html">
+                        <img src="assets/images/portfolio1.jpg" class="img-responsive zoom-img" alt="" />
+                        <div class="view-caption">
+                            <h5>Портфолио</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="gallery-grids">
+                <div class="sshs-hover">
+                    <a href="single.html">
+                        <img src="assets/images/service6.jpg" class="img-responsive zoom-img" alt="" />
+                        <div class="view-caption">
+                            <h5>Портфолио</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="d-grid portfolio-page-2">
+            <div class="gallery-grids">
+                <div class="sshs-hover">
+                    <a href="single.html">
+                        <img src="assets/images/portfolio4.jpg" class="img-responsive zoom-img" alt="" />
+                        <div class="view-caption">
+                            <h5>Портфолио</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="gallery-grids">
+                <div class="sshs-hover">
+                    <a href="single.html">
+                        <img src="assets/images/portfolio3.jpg" class="img-responsive zoom-img" alt="" />
+                        <div class="view-caption">
+                            <h5>Портфолио</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="d-grid portfolio-page">
+            <div class="gallery-grids">
+                <div class="sshs-hover">
+                    <a href="single.html">
+                        <img src="assets/images/portfolio2.jpg" class="img-responsive zoom-img" alt="" />
+                        <div class="view-caption">
+                            <h5>Портфолио</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="gallery-grids">
+                <div class="sshs-hover">
+                    <a href="single.html">
+                        <img src="assets/images/service5.jpg" class="img-responsive zoom-img" alt="" />
+                        <div class="view-caption">
+                            <h5>Портфолио</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="gallery-grids">
+                <div class="sshs-hover">
+                    <a href="single.html">
+                        <img src="assets/images/portfolio5.jpg" class="img-responsive zoom-img" alt="" />
+                        <div class="view-caption">
+                            <h5>Портфолио</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!-- //portfolio -->
+<!-- Тарифы -->
+<section id="pricing" class="ssh-pricing-new-main">
+<div class="wrapper">
+    <div class="price-new sec-padding">
+        <h3 class="title-main">Тарифы на услуги</h3>
+        <div class="pt-lg-5 pricing-wthree">
+            <div class="col-lg-4 col-md-4 text-center agile-pricegrid">
+                <div class="bg-price rounded-top text-center">
+                    <h4 class="pb-2">Basic</h4>
+                    <span class="mx-auto bg1-theme"></span>
+                </div>
+                <div class="border p-3 bg-light">
+                    <h5 class="pt-2 text-color1">
+                        <sup>$</sup>30</h5>
+                    <span>per week</span>
+                </div>
+                <div class="border border-top-0">
+                    <ul class="list-group">
+                        <li class="list-group-item">Conse ctetur adip iscing</li>
+                        <li class="list-group-item"> Sed do eimod tempor</li>
+                        <li class="list-group-item"> Et dolore magna</li>
+                        <li class="list-group-item"> - </li>
+                        <li class="list-group-item"> - </li>
+                        <li class="list-group-item"> - </li>
+                    </ul>
+                    <div class="py-3 px-2 pb-3">
+                        <a class="btn button-eff button-eff-3" href="login.html">purchase</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 text-center my-5 agile-price agile-pricegrid">
+                <div class="bg-price rounded-top text-center">
+                    <h4 class="pb-2">Advanced</h4>
+                    <span class="mx-auto bg2-theme"></span>
+                </div>
+                <div class="border p-3 bg-light">
+                    <h5 class="pt-2 text-color2">
+                        <sup>$</sup>100</h5>
+                    <span>per month</span>
+                </div>
+                <div class="border border-top-0">
+                    <ul class="list-group">
+                        <li class="list-group-item"> Ut enim ad min</li>
+                        <li class="list-group-item"> Et dolore magna</li>
+                        <li class="list-group-item"> Conse ctetur adip iscing</li>
+                        <li class="list-group-item"> One ncid id ut lab</li>
+                        <li class="list-group-item"> - </li>
+                        <li class="list-group-item"> - </li>
+                    </ul>
+                    <div class="py-3 px-2 pb-3 sec-price">
+                        <a class="btn button-eff button-eff-3 active" href="login.html">purchase</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 text-center agile-pricegrid sec-3">
+                <div class="bg-price rounded-top text-center">
+                    <h4 class="pb-2">Professional</h4>
+                    <span class="mx-auto bg3-theme"></span>
+                </div>
+                <div class="border p-3 bg-light">
+                    <h5 class="pt-2 text-color3">
+                        <sup>$</sup>150</h5>
+                    <span>per year</span>
+                </div>
+                <div class="border border-top-0">
+                    <ul class="list-group">
+                        <li class="list-group-item"> Et dolore magna</li>
+                        <li class="list-group-item"> One ncid id ut lab</li>
+                        <li class="list-group-item"> Duis aute irure</li>
+                        <li class="list-group-item"> Ut enim ad minim</li>
+                        <li class="list-group-item"> Conse ctetur adip iscing</li>
+                        <li class="list-group-item"> One ncid id ut lab</li>
+                    </ul>
+                    <div class="py-3 px-2 pb-3">
+                        <a class="btn button-eff button-eff-3" href="login.html">purchase</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!-- Тарифы -->
+<!-- timeline -->
+<section class="ssh-timeline-1-main">
+    <div class="timeline-1 sec-padding">
+        <div class="wrapper">
+            <div id="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <span class="fa fa-users" aria-hidden="true"></span>
+                    </div>
+                    <div class="timeline-content">
+                        <h2>Lorem ipsum dolor</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <span class="fa fa-sign-language" aria-hidden="true"></span>
+                    </div>
+                    <div class="timeline-content right">
+                        <h2>Sed do eiusmod tempor</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores
+                            magnam
+                            modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime
+                            molestiae
+                            sunt ipsa.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <span class="fa fa-bullhorn" aria-hidden="true"></span>
+                    </div>
+                    <div class="timeline-content">
+                        <h2>Ut labore et dolore</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores
+                            magnam
+                            modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime
+                            molestiae
+                            sunt ipsa.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <span class="fa fa-american-sign-language-interpreting" aria-hidden="true"></span>
+                    </div>
+                    <div class="timeline-content right">
+                        <h2>Sed do eiusmod tempor</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores
+                            magnam
+                            modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime
+                            molestiae
+                            sunt ipsa.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <span class="fa fa-thumbs-o-up" aria-hidden="true"></span>
+                    </div>
+                    <div class="timeline-content">
+                        <h2>Ut labore et dolore</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores
+                            magnam
+                            modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime
+                            molestiae
+                            sunt ipsa.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //timeline -->
+<!-- Блог -->
+<section class="ssh-blog-single" id="blog">
+<div class="single blog sec-padding">
+    <div class="wrapper">
+    <h3 class="title-main">Последний статьи блога</h3>
+    <div class="d-grid grid-colunm-2">
+        <div class="d-grid sub-content-blog">
+        <div class="card">
+            <a href="blog-single.html"> <img class="img-fluid img-responsive" src="assets/images/gallery2.jpg"
+                alt="" /></a>
+            <div class="card-img-overlay">
+            <span class="badge-pill badge-pos">News</span>
+            </div>
+            <div class="card-body">
+            <div class="news-title">
+                <h4 class="title-small">
+                <a href="blog-single.html" class="text-dark">Quisque velit nisi, pretium ut lacinia in
+                    elementum.</a>
+                </h4>
+            </div>
+            <p class="card-text">
+                <small class="text-time">
+                <em>3 mins ago</em>
+                </small>
+            </p>
+            </div>
+        </div>
+        <div class="card mt-5">
+            <a href="blog-single.html"> <img class="img-fluid img-responsive" src="assets/images/gallery5.jpg"
+                alt="" /></a>
+            <div class="card-img-overlay">
+            <span class="badge-pill badge-pos">Blog</span>
+            </div>
+            <div class="card-body">
+            <div class="news-title">
+                <h4 class="title-small">
+                <a href="blog-single.html" class="text-dark">Quisque velit nisi, pretium ut lacinia in
+                    elementum.</a>
+                </h4>
+            </div>
+            <p class="card-text">
+                <small class="text-time">
+                <em>10 mins ago</em>
+                </small>
+            </p>
+            </div>
+        </div>
+        <div class="card">
+            <a href="blog-single.html"><img class="img-fluid img-responsive" src="assets/images/gallery6.jpg"
+                alt="" /></a>
+            <div class="card-img-overlay">
+            <span class="badge-pill badge-pos">Unity</span>
+            </div>
+            <div class="card-body">
+            <div class="news-title">
+                <h4 class="title-small">
+                <a href="blog-single.html" class="text-dark">Quisque velit nisi, pretium ut lacinia in
+                    elementum.</a>
+                </h4>
+            </div>
+            <p class="card-text">
+                <small class="text-time">
+                <em>14 mins ago</em>
+                </small>
+            </p>
+            </div>
+        </div>
+        <div class="card mt-5">
+            <a href="blog-single.html"> <img class="img-fluid img-responsive" src="assets/images/portfolio1.jpg"
+                alt="" /></a>
+            <div class="card-img-overlay">
+            <span class="badge-pill badge-pos">News</span>
+            </div>
+            <div class="card-body">
+            <div class="news-title">
+                <h4 class="title-small">
+                <a href="blog-single.html" class="text-dark">Quisque velit nisi, pretium ut lacinia in
+                    elementum.</a>
+                </h4>
+            </div>
+            <p class="card-text">
+                <small class="text-time">
+                <em>23 mins ago</em>
+                </small>
+            </p>
+            </div>
+        </div>
+        </div>
+        <div class="right-side-main-cont">
+        <div class="news-block p-3">
+            <div class="news-media">
+            <a href="blog-single.html"> <img class="img-fluid" src="assets/images/gallery1.jpg" alt="" /></a>
+            </div>
+            <div class="news-title">
+            <h4 class="title-large border-bottom">
+                <a href="blog-single.html" class="text-theme text-dark">Quisque velit nisi, pretium ut lacinia
+                in, elementum id enim.</a>
+            </h4>
+            </div>
+            <div class="news-des my-3">
+            <p>Condimentum ultrices mi est a arcu at cum a elementum per cum turpis dui
+                vel. Mauris nam suspendisse consectetur mus...</p>
+            </div>
+            <small class="text-time">
+            <em>
+                <span class="fa fa-clock-o mr-2"></span>1hr ago</em>
+            </small>
+            <a href="blog-single.html" class="btn button-eff button-eff-2 button-2">Читать больше</a>
+        </div>
+        </div>
+    </div>
+    <!-- 3 grids -->
+    <div class="d-grid blog-mid-sec py-sm-5">
+        <div class="blog-item">
+        <a href="blog-single.html"> <img src="assets/images/portfolio2.jpg" alt=" "
+            class="img-fluid img-responsive" /></a>
+        <div class="floods-text">
+            <h3>
+            <a href="blog-single.html">The fed and inequality
+                <span>Blogger |
+                <b>Adom Smith</b>
+                </span>
+            </a>
+            </h3>
+            <p class="para-2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+            laudantium</p>
+        </div>
+        </div>
+        <div class="blog-item">
+        <a href="blog-single.html"> <img src="assets/images/portfolio4.jpg" alt=" "
+            class="img-fluid img-responsive" /></a>
+        <div class="floods-text">
+            <h3>
+            <a href="blog-single.html">The fed and inequality
+                <span>Blogger |
+                <b>Adom Smith</b>
+                </span>
+            </a>
+            </h3>
+            <p class="para-2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+            laudantium</p>
+        </div>
+        </div>
+        <div class="blog-item">
+        <a href="blog-single.html"><img src="assets/images/portfolio3.jpg" alt=" "
+            class="img-fluid img-responsive" /></a>
+        <div class="floods-text">
+            <h3>
+            <a href="blog-single.html">The fed and inequality
+                <span>Blogger |
+                <b>Adom Smith</b>
+                </span>
+            </a>
+            </h3>
+            <p class="para-2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+            laudantium</p>
+        </div>
+        </div>
+    </div>
+    <!-- //3 grids -->
+    <!-- video section -->
+    <div class="main-sec">
+        <div class="d-grid bottom-video">
+        <div class="left-video-blog">
+            <iframe src="https://player.vimeo.com/video/183494517?title=0&byline=0&portrait=0" width="640"
+            height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
+        <div class="right-content-video">
+            <h3> <a href="blog-single.html">Ut enim ad minim veniam, quis nostrud exercitation ullamco</a> </h3>
+            <p class="para-2">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit
+            anim id est laborum.</p>
+            <div class="d-flex">
+            <small class="text-time">
+                <em>
+                <span class="fa fa-clock-o mr-2"></span>1hr ago</em>
+            </small>
+            <small class="text-time sec-2">
+                <em><span class="fa fa-user mr-2" aria-hidden="true"></span>John Doe</em>
+            </small>
+            </div>
+            <a href="blog-single.html" class="btn button-eff button-eff-2">Читать больше</a>
+        </div>
+        </div>
+    </div>
+    <!-- //video section -->
+    <div class="pagination">
+        <ul>
+        <li> <a href="#none" class="not-allowed" disabled="">
+            <span class="fa fa-angle-double-left" aria-hidden="true"></span>
+            </a>
+        </li>
+        <li><a class="active" href="#page">1</a></li>
+        <li>
+            <a href="#page">2</a>
+        </li>
+        <li>
+            <a href="#page">3</a>
+        </li>
+        <li>
+            <a href="#page"><span class="fa fa-angle-double-right" aria-hidden="true"></span>
+            </a>
+        </li>
+        </ul>
+    </div>
+    </div>
+</section>
+<!-- //Блог -->
+<!-- app-4 -->
+<section class="ssh-app-launch-4" id="app">
+    <div id="app4-block">
+        <div class="wrapper">
+            <div class="d-grid parent-flex">
+                <div class="app4-right-image">
+                    <img src="assets/images/mobile.jpg" class="img-responsive" alt="App Device" />
+                </div>
+                <div class="app4-left-text">
+                    <h6>Простой способ использования мобильного приложения</h6>
+                    <h4 class="hny-title">Получите бесплатное мобильное приложение</h4>
+                    <p> Suspendisse efficitur orci urna. In et augue ornare, tempor massa in, luctus sapien. Proin a
+                        diam et dui fermentum molestie vel id neque. </p>
+                    <div class="app-4-connection">
+                        <div class="newsletter">
+                            <label>Введите адрес электронной почты и получите ссылку </label>
+                            <form action="#" methos="GET" class="d-flex wrap-align">
+                                <input type="email" placeholder="Enter email" required="required" />
+                                <button type="submit">Получить</button>
+                            </form>
+                        </div>
+                        <div class="app-4-icon">
+                            <ul>
+                                <li><a href="#url" title="Apple" class="app-icon apple-vv"><span class="fa fa-apple"
+                                            aria-hidden="true"></span></a></li>
+                                <li><a href="#url" title="Google play" class="app-icon play-vv"><span
+                                            class="fa fa-play" aria-hidden="true"></span></a></li>
+                                <li><a href="#url" title="Microsoft" class="app-icon windows-vv"><span
+                                            class="fa fa-windows" aria-hidden="true"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //app-4 -->
+<!-- Контакты -->
+<section class="ssh-contact-info-main" id="contact">
+    <div class="contact-sec sec-padding">
+        <div class="wrapper">
+            <h3 class="title-main">Наши Контакты</h3>
+            <div class="contact-w3pvt-form">
+                <p class="sub-wthree">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. О, даль реторический использовало запятых, раз рот, все образ lorem бросил агентство встретил переписывается свое запятой! Свое, переписали, текстами, продолжил пояс эта которое маленький ему злых рыбными раз собрал прямо.</p>
+                <form method="post" class="sshayouts-contact-fm" action="https://sendmail.w3layouts.com/submitForm">
+                    <div class="d-grid main-cont-sec">
+                        <div class="left-cont-contact">
+                            <div class="form-group">
+                                <label for="w3lName">Имя</label>
+                                <input class="form-control" type="text" name="w3lName" id="w3lName" placeholder=""
+                                    required="">
+                            </div>
+                            <div class="form-group">
+                                <label for="w3lName">Фамилия</label>
+                                <input class="form-control" type="text" name="w3lName" id="w3lName" placeholder=""
+                                    required="">
+                            </div>
+                            <div class="form-group">
+                                <label for="w3lSender">Email</label>
+                                <input class="form-control" type="email" name="w3lSender" id="w3lSender"
+                                    placeholder="" required="">
+                            </div>
+                        </div>
+                        <div class="right-cont-contact">
+                            <div class="form-group">
+                                <label for="w3lSubject">Напиши сообщение</label>
+                                <textarea class="form-control" name="w3lMessage" id="w3lMessage" placeholder=""
+                                    required=""></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group-2">
+                        <button type="submit" class="btn button-eff">Отправить сейчас</button>
+                    </div>
+                </form>
+                <iframe class="map-w3layouts"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6509162.831475898!2d-123.79818215689443!3d37.19305185672543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb9fe5f285e3d%3A0x8b5109a227086f55!2sCalifornia%2C+USA!5e0!3m2!1sen!2sin!4v1535716535953"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //Контакты -->
+<!-- footer 14 -->
+<div class="ssh-footer-main">
+    <div class="ssh-sub-footer-content">
+        <section class="_form-3">
+            <div class="form-main">
+                <div class="wrapper">
+                    <div class="middle-section grid-column top-bottom">
+                        <div class="image grid-three-column">
+                            <img src="assets/images/subscribe.jpg" alt="" class="img-fluid img-responsive">
+                        </div>
+                        <div class="text-grid grid-three-column">
+                            <h2>Подпишитесь, чтобы раз в месяц получать наши лучшие публикации</h2>
+                            <p>Sed lorem ipsum</p>
+                        </div>
+                        <div class="form-text grid-three-column">
+                            <form action="/" method="GET">
+                                <input type="email" name=" placeholder" placeholder="Введите свой Email" required="">
+                                <button type="submit" class="submit-butn btn button-eff">Отправить</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footers-14 -->
+        <footer class="footer-14">
+            <div id="footers14-block">
+                <div class="wrapper">
+                    <div class="footers20-content">
+                        <div class="d-grid grid-col-4 grids-content">
+                            <div class="column">
+                                <h4>Наш адресс</h4>
+                                <p>Киев Украина, 10001</p>
+                            </div>
+                            <div class="column">
+                                <h4>Позвоните нам</h4>
+                                <p><a href="tel:+44-000-888-999">+012-123-45-67</a></p>
+                            </div>
+                            <div class="column">
+                                <h4>Напишите нам</h4>
+                                <p><a href="mailto:info@example.com">info@example.com</a></p>
+                            </div>
+                            <div class="column">
+                                <h4>Смотрите на</h4>
+                                <ul>
+                                    <li><a href="#facebook"><span class="fa fa-facebook"
+                                                aria-hidden="true"></span></a>
+                                    </li>
+                                    <li><a href="#linkedin"><span class="fa fa-linkedin"
+                                                aria-hidden="true"></span></a>
+                                    </li>
+                                    <li><a href="#twitter"><span class="fa fa-twitter"
+                                                aria-hidden="true"></span></a>
+                                    </li>
+                                    <li><a href="#google"><span class="fa fa-google-plus"
+                                                aria-hidden="true"></span></a>
+                                    </li>
+                                    <li><a href="#github"><span class="fa fa-github" aria-hidden="true"></span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footers14-bottom d-flex">
+                        <div class="copyright">
+                            <p>© 2020 Готовый Шаблон для сайта Создать сайт можно <a href="http://stockshablonov.com/sozdanie-sajtov/"
+                                    target="_blank">здесь</a></p>
+                        </div>
+                        <div class="language-select d-flex">
+                            <span class="fa fa-language" aria-hidden="true"></span>
+                            <select>
+                                <option>English</option>
+                                <option>Estonina</option>
+                                <option>Deutsch</option>
+                                <option>Nederlan;ds</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- move top -->
+            <button onclick="topFunction()" id="movetop" title="Вверх">
+                &uarr;
+            </button>
+            <script>
+                //Когда пользователь прокручивает вниз на 20 пикселей от верха документа, покажится кнопка
+                window.onscroll = function () {
+                    scrollFunction()
+                };
+
+                function scrollFunction() {
+                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                        document.getElementById("movetop").style.display = "block";
+                    } else {
+                        document.getElementById("movetop").style.display = "none";
+                    }
+                }
+
+                // Когда пользователь нажимает кнопку, прокрутит документ до верхней части.
+                function topFunction() {
+                    document.body.scrollTop = 0;
+                    document.documentElement.scrollTop = 0;
+                }
+            </script>
+            <!-- /move top -->
+        </footer>
+        <!-- Footers-14 -->
+    </div>
+</div>
+<!-- //footer 14 -->
+    <script src="https://use.fontawesome.com/df966d76e1.js"></script>
+</body>
+
+</html>
